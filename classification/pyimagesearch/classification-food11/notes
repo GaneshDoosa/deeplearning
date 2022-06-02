@@ -1,0 +1,18 @@
+GPU related installations:
+    # Install Pytorch
+    $ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+    # Install CUDA (Not required if we run the above command)
+    # conda install cuda -c nvidia
+    # Check version of cuda
+    $ nvidia-smi
+
+# Training first neural network
+1. Defining your neural network architecture
+2. Initializing your optimizer and loss function
+3. Looping over your number of training epochs
+4. Looping over data batches inside each epoch
+5. Making predictions and computing the loss on the current batch of data
+6. Zeroing out your gradient
+7. Performing backpropagation
+8. Telling your optimizer to update the gradients of your network
+9. Telling PyTorch to train your network with a GPU (if a GPU is available on your machine, of course)

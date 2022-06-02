@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+_pycache__/
+*.pyc
+*.pth
+classification/pyimagesearch/classification-flowers/dataset/
+classification/pyimagesearch/classification-food11/dataset/
